@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# MEGA - TRON
-def print_list_integer(_list=[]):
-    for i in _list:
-        print('{:d}'.format(i))
+def print_list_integer(my_list=[]):
+    for n in range(len(my_list)):
+        print("{:d}".format(my_list[n]))
